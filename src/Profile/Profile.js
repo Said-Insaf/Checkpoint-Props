@@ -2,7 +2,6 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import PropTypes from "prop-types";
 
-
 // props = {
 // fullname={"Insaf SAID"},
 //         bio={"Développement web"},
@@ -23,6 +22,7 @@ const Profile = (props) => {
     </div>
   );
 };
+
 Profile.defaultProps = {
   Profile: {
     fullname: "inconnu",

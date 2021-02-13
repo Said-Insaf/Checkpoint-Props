@@ -5,6 +5,12 @@ import photoprofil from "./assets/photoprofil.jpg";
 function App() {
   return (
     <div className="App">
+      <img
+        src="./Instago.jpg"
+        alt=""
+        className="Instago"
+        style={{ width: "100%" }}
+      ></img>
       <Profile
         fullname={"Insaf SAID"}
         bio={"Développement web"}
@@ -17,6 +23,12 @@ function App() {
           style={{ width: "50%" }}
         />
       </Profile>
+      <img
+        src="./Instagram.jpg"
+        alt=""
+        className="Instagram"
+        style={{ width: "100%" }}
+      ></img>
     </div>
   );
 }
