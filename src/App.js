@@ -2,7 +2,12 @@ import React from "react";
 import "./App.css";
 import Profile from "./Profile/Profile";
 import photoprofil from "./assets/photoprofil.jpg";
+
 function App() {
+  const handleName = (fullname) => {
+    alert(`My name is  ${fullname}`);
+  };
+
   return (
     <div className="App">
       <img
@@ -12,6 +17,7 @@ function App() {
         style={{ width: "100%" }}
       ></img>
       <Profile
+        handleName={handleName}
         fullname={"Insaf SAID"}
         bio={"Développement web"}
         profession={"Student"}
