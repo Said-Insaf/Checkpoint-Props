@@ -8,9 +8,7 @@ const Profile = (props) => {
       <h2>{props.fullname}</h2>
       <h2>{props.bio}</h2>
       <h2>{props.profession}</h2>
-      <Button onClick={() => props.handleName("mohamed")}>
-        S'abbonner
-      </Button>
+      <Button onClick={() => props.handleName("Insaf SAID")}>S'abbonner</Button>
       <br />
       <br />
       {props.children}
@@ -19,11 +17,9 @@ const Profile = (props) => {
 };
 
 Profile.defaultProps = {
-  
-    fullname: "inconnu",
-    bio: "nthg",
-    profession: "nthg",
-
+  fullname: "inconnu",
+  bio: "nthg",
+  profession: "nthg",
 };
 Profile.propTypes = {
   Profile: PropTypes.object,
